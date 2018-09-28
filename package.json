@@ -1,0 +1,25 @@
+{
+  "name": "wallet",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "bip39": "^2.5.0",
+    "qrcode": "^1.2.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "scripts": "^0.1.0",
+    "truffle-hdwallet-provider": "0.0.3",
+    "web3": "^1.0.0-beta.35"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "基于web3js+React.js的以太坊钱包,基本功能齐全,简单易懂有注释,适合初学者学习.",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
